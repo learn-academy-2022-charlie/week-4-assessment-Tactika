@@ -22,7 +22,7 @@ p is_odd num1  # Output == '7 is odd'
 p is_odd num2  # Output == '42 is even'
 p is_odd num3  # Output == '221 is odd'
 
-p ' ------------- Refactor ------------- '
+p ' ------------- Refactor Q1 ------------- '
 
 # Refactor
 def is_odd(num) = num % 2 == 0 ? "#{num} is odd" : "#{num} is even"
@@ -66,3 +66,29 @@ p vowelless album3
 palindrome_tester1 = 'Racecar'  # Expected output: 'Racecar is a palindrome'
 palindrome_tester2 = 'LEARN'    # Expected output: 'LEARN is not a palindrome'
 palindrome_tester3 = 'Rotator'  # Expected output: 'Rotator is a palindrome'
+
+def palindrome word
+    if word.downcase == word.reverse.downcase
+        "#{word.capitalize} is a palindrome"
+    else
+        "#{word.capitalize} is not a palindrome"
+    end
+end
+
+p ' --------- Question 3 Output --------- '
+p palindrome palindrome_tester1
+p palindrome palindrome_tester2
+p palindrome palindrome_tester3
+
+p ' ------------- Refactor Q3 ------------- '
+
+# Refactor
+
+def palindrome(word) = 
+    word.downcase == word.reverse.downcase ?
+    "#{word.capitalize} is a palindrome":
+    "#{word.capitalize} is not a palindrome"
+
+p palindrome palindrome_tester1
+p palindrome palindrome_tester2
+p palindrome palindrome_tester3
