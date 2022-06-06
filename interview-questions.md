@@ -24,7 +24,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
        > Object oriented proramming is a way to program that is based on objects and classes while functional programming is more about creating logic through functions. From my understanding React is used as a functional programming framework, using functions and hooks. At Learn Academy, we primarily use the OOP style of programming with React, re-building the components into classes from their standard function component boilerplate.
 
      - Researched answer:
-       >a
+       > Object oriented programming is an imperative programming model versus functional programmings declarative programming model. OOP's focus on the four main features: abstraction, inheritance, polymorphism, and encapsulation.
 
 4. What is the difference between a Float and an Integer in Ruby?
      - Your answer:
